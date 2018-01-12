@@ -24,11 +24,11 @@ type Tick struct {
 	LowPrice           float64 `json:"lowPrice,string"`
 	Volume             float64 `json:"volume,string"`
 	QuoteVolume        float64 `json:"quoteVolume,string"`
-	OpenTime           int64  `json:"openTime,string"`
-	CloseTime          int64  `json:"closeTime"`
-	FristID            int    `json:"fristId"`
-	LastID             int    `json:"lastId"`
-	Count              int    `json:"count"`
+	OpenTime           int64   `json:"openTime"`
+	CloseTime          int64   `json:"closeTime"`
+	FristID            int     `json:"fristId"`
+	LastID             int     `json:"lastId"`
+	Count              int     `json:"count"`
 }
 
 // Binance API implementation of Ticker endpoint.
